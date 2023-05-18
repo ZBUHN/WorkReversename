@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <form asp-action="ReverseN">
+        <div>
+            <input type="text" name="Name" />:أدخل أسمك
+        </div><br />
+            <button type="reset">إلغاء</button>
+            <button type="submit">تمام</button>
+    </form>
+    <h1> @ViewData["RN"] </h1>
+</div>
+
